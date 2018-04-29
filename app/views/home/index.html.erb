@@ -1,0 +1,13 @@
+<h1>Daygram</h1>
+
+<a href ="/home/new">일기 작성</a>
+<br>
+<div class="body">
+<% @posts.each do |x| %>
+<%= x.date%> 의 일기 : <br>
+<%= x.content%> <br>
+<a href = "/home/show/<%=x.id%>"> 자세히보기</a>
+<br>
+<br>
+<%end%>
+</div>

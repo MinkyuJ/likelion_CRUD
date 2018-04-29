@@ -1,0 +1,7 @@
+<h1>글 수정하기</h1>
+
+<form action="/home/update/<%=@post.id%>" method="post">
+날짜 : <input type="text" name="date" value="<%=@post.date%>"><br>
+내용 : <input type="text" name="content" value="<%=@post.content%>"><br>
+<input type="submit" value="수정">
+</form>

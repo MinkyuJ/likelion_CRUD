@@ -1,0 +1,2 @@
+class Daygram < ApplicationRecord
+end
